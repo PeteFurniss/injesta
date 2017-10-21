@@ -3,7 +3,7 @@
 
 ***
 
-###Motivation
+### Motivation
 
 injesta is a serious hobby project. The principle motivation is to provide its author with the opportunity to learn about the development of Erlang applications.
 
