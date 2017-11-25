@@ -28,6 +28,6 @@ The Queue Reader/Writer processes provide the queue-technology-specific interfac
 
 The Supervisor is responsible for starting and stopping the Core Data Handler and for restarting it in the event of process failure.
 
-####Message/Metrics Logger
+#### Message/Metrics Logger
 
 Message and metrics logging is performed by two system-wide processes, the Message Logger and the Metrics Logger.
