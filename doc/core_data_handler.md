@@ -21,7 +21,7 @@ OTP gen_server
 
 #### start_link
 
-start_link({ProcessType, ProcessInstance, ConfigModule}) -> Result
+* start_link({ProcessType, ProcessInstance, ConfigModule}) -> Result
 
 **Types**
 
@@ -40,7 +40,7 @@ start_link may be called as part of a supervision tree.
 
 #### stop
 
-stop({ProcessType, ProcessInstance}) -> ok
+* stop({ProcessType, ProcessInstance}) -> ok
 
 **Types**
 
