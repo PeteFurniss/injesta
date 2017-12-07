@@ -25,12 +25,12 @@ start_link({ProcessType, ProcessInstance, ConfigModule}) -> Result
 
 **Types**
 
-ProcessType = atom()
-ProcessInstance = int()
-ConfigModule = atom()
-Result = {ok, Pid} | ignore | {error, Error}
-Pid = pid()
-Error = {already_started, Pid} | term()
+* ProcessType = atom()
+* ProcessInstance = int()
+* ConfigModule = atom()
+* Result = {ok, Pid} | ignore | {error, Error}
+* Pid = pid()
+* Error = {already_started, Pid} | term()
 
 Creates a Core Data Handler process with the registered name "ProcessTypeProcessInstance".
 
@@ -44,7 +44,7 @@ stop({ProcessType, ProcessInstance}) -> ok
 
 **Types**
 
-ProcessType = atom()
-ProcessInstance = int()
+* ProcessType = atom()
+* ProcessInstance = int()
 
 Stops the relevant Core Data Handler instance.
