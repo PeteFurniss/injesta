@@ -23,7 +23,7 @@ OTP gen_server
 
 start_link({ProcessType, ProcessInstance, ConfigModule}) -> Result
 
-** Types **
+**Types**
 
 ProcessType = atom()
 ProcessInstance = int()
@@ -42,7 +42,7 @@ start_link may be called as part of a supervision tree.
 
 stop({ProcessType, ProcessInstance}) -> ok
 
-** Types **
+**Types**
 
 ProcessType = atom()
 ProcessInstance = int()
